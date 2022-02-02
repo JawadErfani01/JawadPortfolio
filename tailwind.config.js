@@ -1,12 +1,13 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  darkMode:'class',
   theme: {
     extend: {
       animation: {
         'spin-slow': 'spin 20s linear infinite',
       },
-      color:{
-        'mycolor':'#67b99c'
+      colors:{
+        mycolor:'#67b99c'
       }
     },
   },
