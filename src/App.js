@@ -1,11 +1,13 @@
+import Header from './components/headers/Header';
+import Main from './components/main/Main';
+
 function App() {
   return (
-    <main className="flex flex-col font-serif justify-center items-center text-white  h-screen bg-slate-800">
-      <h1 className="text-4xl hover:text-blue-600">Frontend With jawad</h1>
-      <p className="p-4 m-2 text-xl hover:bg-gray-400 hover:rounded-full">
-        Tailwind V3
-      </p>
-    </main>
+    <div className="bg-slate-800 text-white h-full">
+      <Header/>
+      <div  className="w-16 rounded-full mx-28 mt-12   p-1 z-10 bg-green-600"></div>
+      <Main/>
+    </div>
   );
 }
 
