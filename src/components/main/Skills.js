@@ -8,29 +8,29 @@ function Skills() {
         My skills are not confined only to MERN stack but I've worked with
         multiple web technologies
       </p>
-      <div className="py-8 shadow-lg">
+      <div className="py-8 ">
         <ul className="flex flex-wrap justify-between items-center">
-          <li className="text-center mx-10 ">
-            <img src="logo512.png" alt="react" className="w-12 h-12 my-2" />
+          <li className="text-center mx-10  rounded-lg flex-1 m-2 shadow-xl shadow-slate-900  py-1 px-3 ">
+            <img src="logo512.png" alt="react" className="w-12 h-12 my-2 mx-auto" />
             <span>React</span>
           </li>
-          <li className="text-center mx-10">
+          <li className="text-center mx-10  rounded-lg flex-1 m-2 shadow-xl shadow-slate-900  py-1 px-3">
             <img src="logo512.png" alt="react" className="w-12 h-12 mx-auto my-2" />
             <span>Redux</span>
           </li>
-          <li className=" mx-10">
+          <li className=" mx-10  rounded-lg flex-1 m-2 shadow-xl shadow-slate-900  py-1 px-3">
             <img src="logo512.png" alt="react" className="w-12 h-12 mx-auto my-2" />
             <span>TypeScript</span>
           </li>
-          <li className="text-center mx-10">
+          <li className="text-center mx-10  rounded-lg flex-1 m-2 shadow-xl shadow-slate-900  py-1 px-3">
             <img src="logo512.png" alt="react" className="w-12 h-12 mx-auto my-2" />
             <span>Html</span>
           </li>
-          <li className="text-center mx-10">
+          <li className="text-center mx-10  rounded-lg flex-1 m-2 shadow-xl shadow-slate-900  py-1 px-3">
             <img src="logo512.png" alt="react" className="w-12 h-12 mx-auto my-2" />
             <span>javascript</span>
           </li>
-          <li className="text-center mx-10">
+          <li className="text-center mx-10  rounded-lg flex-1 m-2 shadow-xl shadow-slate-900  py-1 px-3">
             <img src="logo512.png" alt="react" className="w-12 h-12 mx-auto my-2" />
             <span>Css</span>
           </li>
