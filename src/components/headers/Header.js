@@ -82,8 +82,8 @@ function Header({light,setlight}) {
         </section>
       </div>
       {Show && <Dropdown />}
-      <main className="md:mx-3 text-gray-300  dark:text-slate-700">
-        <div className="xl:p-24 md:text-6xl sm:text-5xl mx-5 py-10 pb-6 lg:pt-20 xl:pb-10 lg:text-7xl text-3xl font-semibold">
+      <main className="xl:px-28 md:px-12 px-8 text-gray-300  dark:text-slate-700">
+        <div className=" md:text-6xl sm:text-5xl  py-10 pb-6 lg:pt-20 xl:pb-10 lg:text-7xl text-3xl font-semibold">
           <h1>
             I'm <span className="text-4xl md:text-7xl sm:text-6xl  lg:text-8xl text-blue-600">J</span>
             awad,
@@ -92,7 +92,7 @@ function Header({light,setlight}) {
             a Frontend <span className="opacity-80">Developer</span>
           </h1>
         </div>
-        <div className="xl:px-24 mx-5 md:text-2xl text-lg lg:leading-10 font-thin">
+        <div className="md:text-2xl text-lg lg:leading-10 font-thin">
           <h2 className="w-full lg:w-1/2">
             I build high-performing & modern applications with React.js by
             consuming backend APIs

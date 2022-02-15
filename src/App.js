@@ -17,7 +17,7 @@ function App() {
       <Main/>
       <div  className="w-16 rounded-full md:mx-8 xl:mx-28 mx-5 mt-0   h-1 z-10 bg-blue-600"></div>
       <Skills/>
-      <div  className="w-16 rounded-full md:mx-8 xl:mx-28 mx-5 mt-0   h-1 z-10 bg-blue-600"></div>
+      <div  className="w-16 rounded-full md:mx-8 xl:mx-28 mx-5  my-10  h-1 z-10 bg-blue-600"></div>
       <About/>
       <div  className="w-16 rounded-full md:mx-8 xl:mx-28 mx-5 mt-0   h-1 z-10 bg-blue-600"></div>
       <Interest/>
