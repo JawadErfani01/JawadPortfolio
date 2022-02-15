@@ -82,7 +82,7 @@ function Header({light,setlight}) {
         </section>
       </div>
       {Show && <Dropdown />}
-      <main className="md:mx-4 text-gray-300  dark:text-slate-700">
+      <main className="md:mx-3 text-gray-300  dark:text-slate-700">
         <div className="xl:p-24 md:text-6xl sm:text-5xl mx-5 py-10 pb-6 lg:pt-20 xl:pb-10 lg:text-7xl text-3xl font-semibold">
           <h1>
             I'm <span className="text-4xl md:text-7xl sm:text-6xl  lg:text-8xl text-blue-600">J</span>
