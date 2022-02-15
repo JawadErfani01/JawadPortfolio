@@ -2,13 +2,13 @@ import React from "react";
 
 function Main() {
   return (
-    <div id="project" className="xl:p-28 px-8 md:px-12   xl:pt-0 my-8 xl:my-0 ">
+    <div id="project" className="xl:px-28 px-8 md:px-12   ">
       <h1 className="xl:text-7xl sm:text-5xl text-3xl md:text-6xl text-gray-300 dark:text-slate-700 font-semibold">
         Featured Projects
       </h1>
 
       <div className="md:flex   text-gray-300">
-        <section className="md:w-2/5 sm:w-4/6 w-5/6 mx-auto text-center shadow-xl shadow-slate-500 rounded-2xl bg-slate-900 py-7 p-4 my-8  md:my-16 md:mx-12">
+        <section className="md:w-2/5 sm:w-4/6 w-5/6 mx-auto text-center shadow-xl shadow-slate-500 rounded-2xl bg-slate-900 py-7 p-4 my-8   md:mx-12">
           <img
             src="logo192.png"
             className=" mx-auto items-center w-2/3 lg:max-h-52"
@@ -21,16 +21,16 @@ function Main() {
             where you create your account and use it for checkout process
           </p>
           <ul className="flex items-center justify-center  md:m-4 my-3">
-            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-2  mr-1">
+            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-1 lg:mr-2  mr-0">
               React
             </li>
-            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-2  mr-1">
+            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-1 lg:mr-2  mr-0">
               Redux
             </li>
-            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-2  mr-1">
+            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-1 lg:mr-2  mr-0">
               TypeScript
             </li>
-            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-2  mr-1">
+            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-1 lg:mr-2  mr-0">
               TailwindCss
             </li>
           </ul>
@@ -56,16 +56,16 @@ function Main() {
             where you create your account and use it for checkout process
           </p>
           <ul className="flex items-center justify-center  md:m-4 my-3">
-            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-2  mr-1">
+            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-1 lg:mr-2  mr-0">
               React
             </li>
-            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-2  mr-1">
+            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-1 lg:mr-2  mr-0">
               Redux
             </li>
-            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-2  mr-1">
+            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-1 lg:mr-2  mr-0">
               TypeScript
             </li>
-            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-2  mr-1">
+            <li className="px-2 md:px-0 lg:px-2  rounded-xl   text-blue-400 py-1 sm:mr-1 lg:mr-2  mr-0">
               TailwindCss
             </li>
           </ul>

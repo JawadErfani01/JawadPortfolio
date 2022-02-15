@@ -83,7 +83,7 @@ function Header({light,setlight}) {
       </div>
       {Show && <Dropdown />}
       <main className="xl:px-28 md:px-12 px-8 text-gray-300  dark:text-slate-700">
-        <div className=" md:text-6xl sm:text-5xl  py-10 pb-6 lg:pt-20 xl:pb-10 lg:text-7xl text-3xl font-semibold">
+        <div className=" md:text-6xl sm:text-5xl  py-10 pb-6 lg:pt-20 lg:text-7xl text-3xl font-semibold">
           <h1>
             I'm <span className="text-4xl md:text-7xl sm:text-6xl  lg:text-8xl text-blue-600">J</span>
             awad,
@@ -99,7 +99,7 @@ function Header({light,setlight}) {
           </h2>
           <button
             onClick={() => window.location.replace("#fotterlink")}
-            className="px-3 my-10 lg:my-6 md:py-4 py-1 w-full sm:w-1/2 md:w-1/3 lg:w-1/4  text-lg md:text-xl lg:text-2xl text-slate-200 bg-slate-700  rounded-full hover:scale-105 duration-300 font-semibold shadow-2xl  hover:bg-slate-600"
+            className="px-3 my-10  md:py-4 py-1 w-full sm:w-1/2 md:w-1/3 lg:w-1/4  text-lg md:text-xl lg:text-2xl text-slate-200 bg-slate-700  rounded-full hover:scale-105 duration-300 font-semibold shadow-2xl  hover:bg-slate-600"
           >
             <span className="text-blue-500  mx-1">Let's</span> Connect
           </button>
