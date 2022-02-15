@@ -1,10 +1,13 @@
 import React,{useState} from "react";
 import { FaGithub, FaLinkedin, FaTwitter,FaSun,FaMoon ,FaMinusCircle} from "react-icons/fa";
+import Dropdown from './Dropdown';
 function Header({light,setlight}) {
+  const [Show, setShow] = useState(false);
+
   return (
     <header className="py-2 ">
     
-      <div className="flex justify-between items-center p-1 sm:p-2 md:p-3 lg:p-4 shadow-2xl  dark:shadow-slate-300 shadow-slate-900 ">
+      <div className="flex justify-between items-center px-2 p-1 sm:p-2 md:p-3 lg:p-4 shadow-2xl  dark:shadow-slate-300 shadow-slate-900 ">
         <h1 className=" px-4 sm:px-6 lg:px-10 w-1/4 text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-300 dark:text-slate-700"><span className="text-2xl md:text-3xl lg:text-4xl  text-blue-600">J</span>awad</h1>
         <nav className=" hidden lg:block  ">
           <ul className="flex text-gray-300 dark:text-slate-700  items-center justify-center  text-xl">
@@ -33,7 +36,7 @@ function Header({light,setlight}) {
         
           >
             <span>
-        <FaMinusCircle/>  
+        <FaMinusCircle onClick={()=>setShow(!Show)}/> 
             </span>
           </button>
           </div>
@@ -64,6 +67,7 @@ function Header({light,setlight}) {
           </a>
         </section>
       </div>
+     {Show&& <Dropdown/>} 
       <main className="mx-4 text-gray-300 dark:text-slate-700">
         <div className="p-24 pt-20 pb-10 text-7xl font-semibold">
           <h1 >
