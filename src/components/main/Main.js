@@ -2,7 +2,7 @@ import React from "react";
 
 function Main() {
   return (
-    <div id="project" className="xl:px-28 px-8 md:px-12   ">
+    <div id="project" className="xl:px-28  px-4 sm:px-6   md:px-12   ">
       <h1 className="xl:text-7xl sm:text-5xl text-3xl md:text-6xl text-gray-300 dark:text-slate-700 font-semibold">
         Featured Projects
       </h1>

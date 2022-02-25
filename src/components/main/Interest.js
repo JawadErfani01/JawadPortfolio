@@ -4,7 +4,7 @@ function Interest() {
   return (
     <div
       id="interst"
-      className="xl:px-28 md:px-12 px-8  dark:text-slate-700"
+      className="xl:px-28 md:px-12  px-4 sm:px-6   dark:text-slate-700"
     >
       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl pb-6   font-semibold">
         Interests

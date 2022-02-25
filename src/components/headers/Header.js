@@ -91,7 +91,7 @@ function Header({ light, setlight }) {
         </section>
       </div>
       {Show && <Dropdown />}
-      <main className="xl:px-28 md:px-12 px-8   dark:text-slate-700">
+      <main className="xl:px-28 md:px-12 px-4 sm:px-6   dark:text-slate-700">
         <div className=" md:text-6xl sm:text-5xl  py-10 pb-6 lg:pt-20 lg:text-7xl text-3xl font-semibold">
           <h1>
             I'm{" "}

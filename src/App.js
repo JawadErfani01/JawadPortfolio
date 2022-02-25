@@ -15,7 +15,7 @@ function App() {
     <div className='bg-slate-800 bg-gradient-to-l from-cyan-800 via-cyan-900 dark:via-blue-200 dark:from-blue-300 dark:bg-gray-100 dark:text-slate-900  text-white flex flex-col min-h-screen'>
       <Header setlight={setlight} light={light}/>
 
-      <div  className="md:w-12 lg:w-14 w-8 rounded-full md:mx-8 xl:mx-28 mx-5 md:my-12 my-4   h-0.5 md:h-1 lg:h-1.3 z-10 bg-gradient-to-bl from-slate-400  bg-blue-600"></div>
+      <div  className="md:w-12 lg:w-14 w-8 rounded-full md:mx-8  xl:mx-28 mx-5 md:my-12 my-4   h-0.5 md:h-1 lg:h-1.3 z-10 bg-gradient-to-bl from-slate-400  bg-blue-600"></div>
       <Main/>
       <div  className="md:w-12 lg:w-14 w-8 rounded-full md:mx-8 xl:mx-28 mx-5 md:my-12 my-8   h-0.5 md:h-1 lg:h-1.3 z-10 bg-gradient-to-bl from-slate-400  bg-blue-600"></div>
       <Skills/>

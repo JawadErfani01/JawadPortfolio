@@ -2,7 +2,7 @@ import React from 'react';
 import {FaMailBulk,FaWhatsapp,FaGithub,FaLinkedin,FaTwitter} from 'react-icons/fa'
 function Fotter() {
   return (
-    <div id="about" className="xl:px-28 px-8 md:px-12 dark:text-slate-900">
+    <div id="about" className="xl:px-28   px-4 sm:px-6   md:px-12 dark:text-slate-900">
       <hr className="opacity-30 dark:opacity-100 dark:text-slate-700 py-6" />
  
       <div className="xl:mb-6 md:mb-4 mb-2">
