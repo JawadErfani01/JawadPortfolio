@@ -9,7 +9,7 @@ function Skills() {
         multiple web technologies
       </p>
       <div className="py-8 ">
-        <ul className="flex flex-wrap justify-between items-center">
+        <ul className="flex flex-wrap justify-between  items-center">
           <li className="text-center mx-10  rounded-lg flex-1 m-2 shadow-xl shadow-slate-900 dark:shadow-slate-200  py-1 px-3 ">
             <img src="logo512.png" alt="react" className="w-12 h-12 my-2 mx-auto" />
             <span>React</span>
@@ -18,7 +18,7 @@ function Skills() {
             <img src="logo512.png" alt="react" className="w-12 h-12 mx-auto my-2" />
             <span>Redux</span>
           </li>
-          <li className=" mx-10  rounded-lg flex-1 m-2 shadow-xl shadow-slate-900 dark:shadow-slate-200  py-1 px-3">
+          <li className=" mx-10 text-center rounded-lg flex-1 m-2 shadow-xl shadow-slate-900 dark:shadow-slate-200  py-1 px-3">
             <img src="logo512.png" alt="react" className="w-12 h-12 mx-auto my-2" />
             <span>TypeScript</span>
           </li>

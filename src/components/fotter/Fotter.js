@@ -4,11 +4,11 @@ function Fotter() {
   return (
     <div id="about" className="xl:px-28 px-8 md:px-12 dark:text-slate-900">
       <hr className="opacity-30 dark:opacity-100 dark:text-slate-700 py-6" />
-
+ 
       <div className="xl:mb-6 md:mb-4 mb-2">
         <h3 className="flex items-center opacity-50 pb-3 text-sm md:text-lg   ">
           <span className="mr-1 text-sm md:text-lg xl:text-xl ">
-            <FaMailBulk  />
+            <FaMailBulk />
           </span>
           EMAIL
         </h3>
@@ -40,7 +40,10 @@ function Fotter() {
           Keep Learning and Keep Growing
         </p>
 
-        <section id="fotterlink" className="flex lg:pl-16 py-6 items-ceneter justify-center ">
+        <section
+          id="fotterlink"
+          className="flex lg:pl-16 py-6 items-ceneter justify-center "
+        >
           <a
             className="text-2xl dark:hover:text-white dark:hover:bg-slate-700 mx-2 p-3 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
             href="#"

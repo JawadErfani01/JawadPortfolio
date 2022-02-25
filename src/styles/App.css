@@ -1,0 +1,5 @@
+.svg {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='300' height='70' viewBox='0 0 300 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cstyle type='text/css'%3E %23a%7Banimation:x .5s ease alternate 14%7D%40keyframes x%7Bfrom%7Bfill:%23c2c2c2%7Dto%7Bfill:%23fff%7D%7D%3C/style%3E%3Crect id='a' x='14' y='23' width='28' height='28' fill='%23c2c2c2' /%3E%3Crect x='52' y='33' width='100' height='11' fill='%23c2c2c2' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    min-height: 200px;
+  }
