@@ -53,7 +53,7 @@ function Fotter() {
             </span>
           </a>
           <a
-            className="text-2xl dark:hover:text-white dark:hover:bg-slate-700 animate-ping  hover:animate-none  mx-2 p-3 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
+            className="text-2xl dark:hover:text-white dark:hover:bg-slate-700 animate-ping  hover:animate-none  mx-2 p-3 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-700"
             href="#"
           >
             <span>

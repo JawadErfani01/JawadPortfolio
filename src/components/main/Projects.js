@@ -1,13 +1,13 @@
 import React from "react";
 
-function Main() {
+function Projects() {
   return (
     <div id="project" className="xl:px-28  px-4 sm:px-6   md:px-12   ">
       <h1 className="xl:text-7xl sm:text-5xl text-3xl md:text-6xl text-gray-300 dark:text-slate-700 font-semibold">
         Featured Projects
       </h1>
 
-      <div className="md:flex   text-gray-300">
+      <div className="md:flex mx-6 sm:mx-0  text-gray-300">
         <section className="md:w-2/5 bg-gradient-to-l dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700 from-slate-800 via-cyan-900  sm:w-4/6 w-full mx-auto text-center shadow-xl shadow-slate-500 rounded-2xl bg-slate-900 py-7 p-4 my-8 md:my-16  md:mx-10">
           <img
             src="logo192.png"
@@ -83,4 +83,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Projects;
