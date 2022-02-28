@@ -5,7 +5,7 @@ import Skills from './components/main/Skills';
 import About from './components/main/About';
 import Interest from './components/main/Interest';
 import Fotter from './components/fotter/Fotter';
-
+import './styles/App.css'
 
 
 function App() {

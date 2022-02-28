@@ -46,7 +46,9 @@ function Fotter() {
         >
           <a
             className="text-2xl dark:hover:text-white dark:hover:bg-slate-700 mx-2 p-3 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
-            href="#"
+            href="https://www.linkedin.com/in/jawad-erfani-610197195/"
+            target="_blank"
+
           >
             <span>
               <FaLinkedin />
@@ -54,7 +56,9 @@ function Fotter() {
           </a>
           <a
             className="text-2xl dark:hover:text-white dark:hover:bg-slate-700 animate-ping  hover:animate-none  mx-2 p-3 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-700"
-            href="#"
+            href="https://github.com/JawadErfani01"
+            target="_blank"
+
           >
             <span>
               <FaGithub />
@@ -62,7 +66,8 @@ function Fotter() {
           </a>
           <a
             className="text-2xl mx-2 dark:hover:text-white dark:hover:bg-slate-700 p-3 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
-            href="#"
+            href="https://twitter.com/JawadErfani01"
+            target="_blank"
           >
             <span>
               <FaTwitter />

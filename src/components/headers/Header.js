@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaSun, FaMoon } from "react-icons/fa";
-import { VscMenu, VscClose } from "react-icons/vsc";
+import { IoMenuSharp} from "react-icons/io5";
+import { IoMdClose } from 'react-icons/io';
+
 import Main from "../main/Main";
 import Dropdown from "./Dropdown";
 function Header({ light, setlight }) {
@@ -54,13 +56,14 @@ function Header({ light, setlight }) {
             onClick={() => setShow(!Show)}
             className=" lg:hidden text-xl md:text-2xl xl:p-3  p-2 m-2 lg:m-0 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-900  hover:rounded-full hover:scale-125 transform duration-500"
           >
-            <span>{Show ? <VscClose /> : <VscMenu />}</span>
+            <span>{Show ? <IoMdClose /> : <IoMenuSharp />}</span>
           </button>
         </div>
         <section className="lg:flex pl-8 xl:pl-12 w-1/4 hidden  ">
           <a
             className="text-2xl mx-4  p-3 dark:hover:text-white dark:hover:bg-slate-700 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
-            href="#"
+            href="https://github.com/JawadErfani01"
+            target="_blank"
           >
             <span>
               <FaGithub />
@@ -68,7 +71,8 @@ function Header({ light, setlight }) {
           </a>
           <a
             className="text-2xl mx-4 p-3 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
-            href="#"
+            href="https://www.linkedin.com/in/jawad-erfani-610197195/"
+            target="_blank"
           >
             <span>
               <FaLinkedin />
@@ -76,7 +80,8 @@ function Header({ light, setlight }) {
           </a>
           <a
             className="text-2xl mx-4 dark:hover:text-white dark:hover:bg-slate-700  p-3 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
-            href="#"
+            href="https://twitter.com/JawadErfani01"
+            target="_blank"
           >
             <span>
               <FaTwitter />
