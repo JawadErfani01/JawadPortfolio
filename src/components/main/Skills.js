@@ -1,5 +1,3 @@
-import React from "react";
-
 function Skills() {
   return (
     <div id="skills" className="xl:px-28 md:px-12  px-4 sm:px-6  text-gray-300 dark:text-slate-700">
@@ -15,7 +13,7 @@ function Skills() {
             <span>React</span>
           </li>
           <li className="text-center mx-10  rounded-lg flex-1 m-2 shadow-xl shadow-slate-900 dark:shadow-slate-200  py-1 px-3">
-            <img src="logo512.png" alt="react" className="w-12 h-12 mx-auto my-2" />
+            <img src="https://img1.pnghut.com/25/10/21/H4N8PREpzt/nodejs-symbol-web-application-redux-state-management.jpg" alt="react" className="w-12 h-12 mx-auto my-2" />
             <span>Redux</span>
           </li>
           <li className=" mx-10 text-center rounded-lg flex-1 m-2 shadow-xl shadow-slate-900 dark:shadow-slate-200  py-1 px-3">

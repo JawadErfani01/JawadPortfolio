@@ -15,7 +15,7 @@ function Projects() {
               <section className="md:w-3/5 lg:w-2/5  bg-gradient-to-l dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700  from-slate-800 via-cyan-900  sm:w-4/6 w-full mx-auto text-center shadow-xl shadow-slate-500 rounded-2xl bg-slate-900 py-7 p-4  my-8  md:my-16 md:mx-4 lg:mx-10">
                 <img
                   src={image}
-                  className=" mx-auto items-center w-2/3 lg:max-h-52"
+                  className=" mx-auto items-center  lg:max-h-56 rounded-t-xl mb-4 hover:scale-105 duration-500 ease-in-out"
                   alt={name}
                 />
                 <h2 className="text-2xl md:text-3xl font-normal">{name}</h2>
