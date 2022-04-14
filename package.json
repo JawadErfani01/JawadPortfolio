@@ -1,9 +1,7 @@
 {
-  "name": "react-tailwind-v3",
+  "name": "Jawad_Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.com/JawadErfani01/Portfolio.github.io",
-
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
