@@ -7,7 +7,7 @@ function Main() {
         <div className="md:text-6xl sm:text-5xl  py-10 pb-6 lg:pt-20 lg:text-7xl text-3xl font-semibold">
           <div className="">
             <h1 className="">
-              I'm     
+              I'm
               <span className="text-4xl lg:ml-3 ml-2 md:text-7xl sm:text-6xl  lg:text-8xl text-blue-600">
                 J
               </span>
@@ -15,14 +15,16 @@ function Main() {
             </h1>
           </div>
           <div className=" inline-flex">
-            <span className="mr-2 text-3xl md:text-6xl sm:text-5xl  lg:text-7xl text-blue-600">a</span>
+            <span className="mr-2 text-3xl md:text-6xl sm:text-5xl  lg:text-7xl text-blue-600">
+              a
+            </span>
             <div className="md:mt-1 mt-0 ">
               <Typewriter
                 className="mt-10"
                 options={{
                   autoStart: true,
                   loop: true,
-                  delay: 60,
+                  delay: 80,
                   strings: [
                     "Software Engineer.",
                     "Frontend Developer.",

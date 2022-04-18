@@ -9,7 +9,7 @@ function Header({ light, setlight }) {
   const [Show, setShow] = useState(false);
 
   return (
-    <header className="py-2 ">
+    <header className="py-2">
       <div className="flex justify-between items-center px-2 p-0  lg:p-2 xl:p-3 shadow-2xl  dark:shadow-slate-300 shadow-slate-900 ">
         <h1 className=" px-4 sm:px-6 lg:px-8 w-1/4 text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-300 dark:text-slate-700">
           <span className="text-2xl md:text-3xl lg:text-4xl  text-blue-600">
@@ -54,7 +54,7 @@ function Header({ light, setlight }) {
           </button>
           <button
             onClick={() => setShow(!Show)}
-            className=" lg:hidden text-xl md:text-2xl xl:p-3  p-2 m-2 lg:m-0 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-900  hover:rounded-full hover:scale-125 transform duration-500"
+            className="lg:hidden text-xl md:text-2xl xl:p-3  p-2 m-2 lg:m-0 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-900  hover:rounded-full hover:scale-125 transform duration-500"
           >
             <span>{Show ? <IoMdClose /> : <IoMenuSharp />}</span>
           </button>

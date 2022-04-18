@@ -28,11 +28,19 @@ function Fotter() {
           CALL
         </h3>
         <a
-          className="text-sm lg:text-lg  opacity-75 font-sans hover:opacity-100"
+          className="text-sm  lg:text-lg  opacity-75 font-sans hover:opacity-100"
           target="_blank"
           href="tel:+93786741729"
         >
           +93-786-741-729
+        </a> 
+        <br/>
+         <a
+          className="text-sm lg:text-lg  opacity-75 font-sans hover:opacity-100"
+          target="_blank"
+          href="tel:+93786741729"
+        >
+          +93-797-302-909
         </a>
       </div>
       <div className="lg:flex justify-between  items-center">

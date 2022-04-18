@@ -11,7 +11,7 @@ import './styles/App.css'
 function App() {
   const [light, setlight] = useState(true);
   return (
-    <div className={`${light ? "" : "dark"}`}>
+    <div className={`${light ? "" : "dark"} `}>
       <div className=" bg-slate-800 bg-gradient-to-l from-cyan-800 via-cyan-900 dark:via-blue-200 dark:from-blue-300 dark:bg-gray-100 dark:text-slate-900  text-white flex flex-col min-h-screen">
         <Header setlight={setlight} light={light} />
 

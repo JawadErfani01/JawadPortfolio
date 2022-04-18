@@ -7,7 +7,7 @@ function Projects() {
         Featured Projects
       </h1>
 
-      <div className="md:flex justify-center items-center mx-6 sm:mx-0  text-gray-300">
+      <div className="md:flex flex-wrap justify-center items-center mx-6 sm:mx-0  text-gray-300">
     
           {projects.map((project,index) => {
             const { image, name, des, tegUse, overviesButton } = project;
