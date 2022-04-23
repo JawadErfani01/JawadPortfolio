@@ -1,5 +1,6 @@
 
 import { FaGithub, FaGit, FaReact } from 'react-icons/fa';
+import {SiTypescript,SiRedux} from 'react-icons/si'
 
 function Skills() {
   return (
@@ -23,20 +24,17 @@ function Skills() {
             <span>React</span>
           </li>
           <li className="text-center mx-10  rounded-lg flex-1 m-2    py-1 px-3">
-            <img
-              src="https://img1.pnghut.com/25/10/21/H4N8PREpzt/nodejs-symbol-web-application-redux-state-management.jpg"
-              alt="Redux"
-              className="w-12 h-12 mx-auto my-2"
-            />
+          <SiRedux  className="w-12 h-12 mx-auto my-2"/>
+
             <span>Redux</span>
           </li>
           <li className=" mx-10 text-center rounded-lg flex-1 m-2    py-1 px-3">
-          <FaGithub  className="w-12 h-12 mx-auto my-2"/>
+          <SiTypescript  className="w-12 h-12 mx-auto my-2"/>
             <span>TypeScript</span>
           </li>
           <li className="text-center mx-10  rounded-lg flex-1 m-2    py-1 px-3">
             <img
-              src="logo.png"
+              src="vue.png"
               alt="git"
               className="w-12 h-12 mx-auto my-2"
             />
