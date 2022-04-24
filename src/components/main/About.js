@@ -9,9 +9,9 @@ function About() {
       <h1 className="xl:text-7xl text-4xl sm:text-5xl md:text-6xl    ">
         About Me
       </h1>
-      <div className="xl:text-2xl text-lg py-6   font-medium text-justify lg:leading-10 leading-8 w-full md:w-4/5">
+      <div className="xl:text-2xl text-lg py-6   font-mono text-justify lg:leading-10 leading-8 w-full md:w-4/5">
         <p>
-          Hello! I am Javad from Afghanistan. I am a student of Herat
+          Hello! I am Jawad from Afghanistan. I am a student of Herat
           University, Faculty of Computer Science, Department of Software
           Engineering And I'm a self-taught developer who loves to challenge and
           find solutions building efficient projects both for clients and to

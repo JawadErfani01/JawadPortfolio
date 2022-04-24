@@ -35,7 +35,7 @@ function Skills() {
           <li className="text-center mx-10  rounded-lg flex-1 m-2    py-1 px-3">
             <img
               src="vue.png"
-              alt="git"
+              alt="vue"
               className="w-12 h-12 mx-auto my-2"
             />
             <span>Vue</span>
