@@ -6,7 +6,8 @@ function Dropdown() {
       <section className="flex justify-end py-2">
         <a
           className="text-xl mx-2  p-2 dark:hover:text-white dark:hover:bg-slate-700 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
-          href="#"
+          href="https://github.com/JawadErfani01"
+          target="_blank"
         >
           <span>
             <FaGithub />
@@ -14,7 +15,8 @@ function Dropdown() {
         </a>
         <a
           className="text-xl mx-2 p-2 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
-          href="#"
+          href="https://www.linkedin.com/in/jawad-erfani-610197195/"
+          target="_blank"
         >
           <span>
             <FaLinkedin />
@@ -22,7 +24,8 @@ function Dropdown() {
         </a>
         <a
           className="text-xl mx-2 dark:hover:text-white dark:hover:bg-slate-700  p-2 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
-          href="#"
+          href="https://twitter.com/JawadErfani01"
+          target="_blank"
         >
           <span>
             <FaTwitter />
