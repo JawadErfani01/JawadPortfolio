@@ -6,7 +6,7 @@ export const projects = [
     des: "This is a frontend Ecommerce Store for Tailwind Css Art Productswhere you create your account and use it for checkout process",
     tegUse: ["React", "Redux", "tailwindCss"],
     gitUrl: "https://github.com/JawadErfani01/Nazho_Store_Redux",
-    liveUrl: "https://ecommerceapp01.netlify.app/",
+    liveUrl: "https://nazho-store01.netlify.app/",
   },
   {
     image: "https://i.nextmedia.com.au/News/change_your_region_to_the_us.png",
