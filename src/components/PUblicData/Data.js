@@ -5,7 +5,7 @@ export const projects = [
     name: "Nazho Store",
     des: "This is a frontend Ecommerce Store for Tailwind Css Art Productswhere you create your account and use it for checkout process",
     tegUse: ["React", "Redux", "tailwindCss"],
-    gitUrl: "https://github.com/JawadErfani01/E-CommerceApp",
+    gitUrl: "https://github.com/JawadErfani01/Nazho_Store_Redux",
     liveUrl: "https://ecommerceapp01.netlify.app/",
   },
   {
