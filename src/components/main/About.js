@@ -9,28 +9,29 @@ function About() {
       <h1 className="xl:text-7xl text-4xl sm:text-5xl md:text-6xl    ">
         About Me
       </h1>
-      <div className="xl:text-2xl text-lg py-6   font-mono text-justify lg:leading-10 leading-8 w-full md:w-4/5">
+      <div className="xl:text-2xl text-lg py-6  text-justify  lg:leading-10 leading-8 w-full md:w-4/5">
         <p>
-          Hello! I am Jawad from Afghanistan. I am a student of Herat
-          University, Faculty of Computer Science, Department of Software
-          Engineering And I'm a self-taught developer who loves to challenge and
-          find solutions building efficient projects both for clients and to
-          enhance my skillset. I started my web development journey after
-          succeeding in college in 2019. By understanding the potential and
-          opportunities for growth. Later, while Gradually increasing my skills,
-          I gained my passion in this field. Web application Development is
-          something I always wanted to do.
+          Hello! I am Jawad from Afghanistan. I graduated from Herat University,
+          where I studied Computer Science at the Faculty of Software
+          Engineering Department. I am also a self-taught developer who loves a
+          challenge and finding solutions to build efficient projects for
+          clients and enhance my skill set. I began my web development journey
+          in 2019 after succeeding in college and realizing the potential
+          opportunities for growth. Gradually increasing my skills, I developed
+          a passion for this field, specifically web application development,
+          which is something I have always wanted to do.
         </p>
         <p className="xl:py-8 py-4">
-          I'm a kind of person who doesn't stop unless explore something.
-          Therefore, I keep exploring multiple methods of building web
-          applications. Now, I feel more confident to build full scale
-          applications and to solve business problems.
+          I am the kind of person who doesn't stop exploring unless I have
+          thoroughly investigated something. Therefore, I continually explore
+          multiple methods of building web applications. Now, I feel more
+          confident in building full-scale applications and solving business
+          problems.
         </p>
         <p>
-          Check out my projects on GitHub and I mostly share about my progress
-          and web development tips and resoruces on Twitter. I'm also available
-          to hire for your projects. Feel free to contact me.
+          Check out my projects on GitHub. I mostly share my progress, web
+          development tips, and resources on Twitter. Additionally, I am
+          available for hire for your projects. Feel free to contact me.
         </p>
       </div>
     </div>

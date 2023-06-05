@@ -3,7 +3,7 @@ import { projects } from "../PUblicData/Data";
 function Projects() {
   return (
     <div id="project" className="xl:px-28  px-4 sm:px-6   md:px-12   ">
-      <h1 className="xl:text-7xl sm:text-5xl text-3xl md:text-6xl text-gray-300 dark:text-slate-700 font-semibold">
+      <h1 className="xl:text-7xl sm:text-5xl text-3xl md:text-6xl text-gray-300 dark:text-slate-700 ">
         Featured Projects
       </h1>
 
@@ -17,7 +17,7 @@ function Projects() {
                 className=" mx-auto items-center w-full h-uto lg:h-56 rounded-t-xl mb-4 hover:scale-105 duration-500 ease-in-out"
                 alt={name}
               />
-              <h2 className="text-2xl md:text-3xl font-normal">{name}</h2>
+              <h2 className="text-2xl md:text-3xl">{name}</h2>
               <div className="w-16 rounded-full mx-auto m-4   h-1 z-10 bg-blue-600"></div>
               <p className="md:text-lg text-md lg:text-xl md:mx-4 mx-2 text-justify">
                 {des}

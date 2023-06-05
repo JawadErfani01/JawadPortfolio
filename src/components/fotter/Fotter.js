@@ -13,7 +13,7 @@ function Fotter() {
           EMAIL
         </h3>
         <a
-          className="text-sm lg:text-lg opacity-75 font-sans hover:opacity-100"
+          className="text-sm lg:text-lg opacity-75  hover:opacity-100"
           href="mailto:jawad.erfani147@gmial.com"
           target="_blank"
         >
@@ -28,7 +28,7 @@ function Fotter() {
           CALL
         </h3>
         <a
-          className="text-sm  lg:text-lg  opacity-75 font-sans hover:opacity-100"
+          className="text-sm  lg:text-lg  opacity-75  hover:opacity-100"
           target="_blank"
           href="tel:+93786741729"
         >
@@ -36,7 +36,7 @@ function Fotter() {
         </a> 
         <br/>
          <a
-          className="text-sm lg:text-lg  opacity-75 font-sans hover:opacity-100"
+          className="text-sm lg:text-lg  opacity-75  hover:opacity-100"
           target="_blank"
           href="tel:+93786741729"
         >
@@ -44,13 +44,13 @@ function Fotter() {
         </a>
       </div>
       <div className="lg:flex justify-between  items-center">
-        <p className="py-6 text-xl text-center font-semibold opacity-75 pb-6 ">
+        <p className="py-6 text-xl text-center  opacity-75 pb-6 ">
           Keep Learning and Keep Growing
         </p>
 
         <section
           id="fotterlink"
-          className="flex lg:pl-16 py-6 items-ceneter justify-center "
+          className="flex lg:pl-16 py-6 items-center justify-center "
         >
           <a
             className="text-2xl dark:hover:text-white dark:hover:bg-slate-700 mx-2 p-3 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"

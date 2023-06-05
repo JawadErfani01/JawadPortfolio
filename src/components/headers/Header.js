@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaSun, FaMoon } from "react-icons/fa";
-import { IoMenuSharp} from "react-icons/io5";
-import { IoMdClose } from 'react-icons/io';
+import { IoMenuSharp } from "react-icons/io5";
+import { IoMdClose } from "react-icons/io";
 
 import Main from "../main/Main";
 import Dropdown from "./Dropdown";
@@ -11,7 +11,7 @@ function Header({ light, setlight }) {
   return (
     <header className="py-2">
       <div className="flex justify-between items-center px-2 p-0  lg:p-2 xl:p-3 shadow-2xl  dark:shadow-slate-300 shadow-slate-900 ">
-        <h1 className=" px-4 sm:px-6 lg:px-8 w-1/4 text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-300 dark:text-slate-700">
+        <h1 className=" px-4  sm:px-6 lg:px-8 w-1/4 text-xl sm:text-2xl lg:text-3xl text-gray-300 dark:text-slate-700">
           <span className="text-2xl md:text-3xl lg:text-4xl  text-blue-600">
             J
           </span>
