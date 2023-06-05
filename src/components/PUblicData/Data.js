@@ -18,12 +18,12 @@ export const projects = [
   },
 
   {
-    image: "screenshot.jpg",
-    name: "Todo List",
-    des: "This is a full Todo list you can add update and remove a todo in your list and also every actions has a good alert message",
-    tegUse: ["React", "Javascript", "css"],
-    gitUrl: "https://github.com/JawadErfani01/todolist",
-    liveUrl: "https://todolist0001.netlify.app/",
+    image: "personal-portfolio.png",
+    name: "Personal Portfolio",
+    des: "This is a beautiful personal portfolio that made with Html raw css and vanilla Javascript it is responsive and has light and dark mode features",
+    tegUse: ["HTML", "CSS", "Javascript"],
+    gitUrl: "https://github.com/JawadErfani01/personal-portfolio",
+    liveUrl: "https://jawad.erfani.netlify.app/",
   },
 
   {

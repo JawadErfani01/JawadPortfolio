@@ -10,7 +10,7 @@ function Header({ light, setlight }) {
 
   return (
     <header className="py-2">
-      <div className="flex justify-between items-center px-2 p-0  lg:p-2 xl:p-3 shadow-2xl  dark:shadow-slate-300 shadow-slate-900 ">
+      <div className="flex justify-between items-center px-2 p-0  lg:p-2 xl:p-3 shadow-xl  dark:shadow-slate-200 shadow-slate-700 ">
         <h1 className=" px-4  sm:px-6 lg:px-8 w-1/4 text-xl sm:text-2xl lg:text-3xl text-gray-300 dark:text-slate-700">
           <span className="text-2xl md:text-3xl lg:text-4xl  text-blue-600">
             J
@@ -48,20 +48,20 @@ function Header({ light, setlight }) {
         <div>
           <button
             onClick={() => setlight(!light)}
-            className="text-xl md:text-2xl xl:p-3  p-2 m-2 lg:m-0 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-900  hover:rounded-full hover:scale-125 transform duration-500"
+            className="text-xl md:text-2xl xl:p-3  p-2 m-2 lg:m-0 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-800  hover:rounded-full hover:scale-125 transform duration-500"
           >
             <span>{light ? <FaSun /> : <FaMoon />}</span>
           </button>
           <button
             onClick={() => setShow(!Show)}
-            className="lg:hidden text-xl md:text-2xl xl:p-3  p-2 m-2 lg:m-0 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-900  hover:rounded-full hover:scale-125 transform duration-500"
+            className="lg:hidden text-xl md:text-2xl xl:p-3  p-2 m-2 lg:m-0 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-800  hover:rounded-full hover:scale-125 transform duration-500"
           >
             <span>{Show ? <IoMdClose /> : <IoMenuSharp />}</span>
           </button>
         </div>
         <section className="lg:flex pl-8 xl:pl-12 w-1/4 hidden  ">
           <a
-            className="text-2xl mx-4  p-3 dark:hover:text-white dark:hover:bg-slate-700 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
+            className="text-2xl mx-4  p-3 dark:hover:text-white dark:hover:bg-slate-700 hover:bg-slate-800 hover:rounded-full hover:scale-125 transform duration-500"
             href="https://github.com/JawadErfani01"
             target="_blank"
           >
@@ -70,7 +70,7 @@ function Header({ light, setlight }) {
             </span>
           </a>
           <a
-            className="text-2xl mx-4 p-3 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
+            className="text-2xl mx-4 p-3 dark:hover:text-white dark:hover:bg-slate-700  hover:bg-slate-800 hover:rounded-full hover:scale-125 transform duration-500"
             href="https://www.linkedin.com/in/jawad-erfani-610197195/"
             target="_blank"
           >
@@ -79,7 +79,7 @@ function Header({ light, setlight }) {
             </span>
           </a>
           <a
-            className="text-2xl mx-4 dark:hover:text-white dark:hover:bg-slate-700  p-3 hover:bg-slate-900 hover:rounded-full hover:scale-125 transform duration-500"
+            className="text-2xl mx-4 dark:hover:text-white dark:hover:bg-slate-700  p-3 hover:bg-slate-800 hover:rounded-full hover:scale-125 transform duration-500"
             href="https://twitter.com/JawadErfani01"
             target="_blank"
           >

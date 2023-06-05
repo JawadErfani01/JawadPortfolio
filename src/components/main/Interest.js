@@ -10,35 +10,29 @@ function Interest() {
         Interests
       </h1>
       <div className="pb-10 pt-4  flex  flex-wrap  text-gray-300 ">
-        <article className="py-4 bg-gradient-to-l from-slate-900 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700 via-cyan-900  rounded-2xl m-2 md:w-1/4 flex-1 bg-slate-900 hover:bg-slate-800 shadow-lg shadow-slate-600 px-6">
-          <h2 className="text-xl md:text-2xl  xl:text-3xl  ">
-            Coding
-          </h2>
+        <article className="py-4 bg-gradient-to-l from-slate-900 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700 via-cyan-900  rounded-2xl m-2 md:w-1/4 flex-1 bg-slate-800 hover:bg-slate-700 shadow-lg shadow-slate-800 px-6">
+          <h2 className="text-xl md:text-2xl  xl:text-3xl  ">Coding</h2>
           <p className="text-sm md:text-lg    ">
             I Love to play with code for me error is to interesting
           </p>
         </article>
-        <article className="py-6  bg-gradient-to-l from-slate-900 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700 via-cyan-900  rounded-2xl m-2 md:w-1/4 flex-1  bg-slate-900 hover:bg-slate-800 shadow-lg shadow-slate-600 px-6">
+        <article className="py-6  bg-gradient-to-l from-slate-900 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700 via-cyan-900  rounded-2xl m-2 md:w-1/4 flex-1  bg-slate-800 hover:bg-slate-700 shadow-lg shadow-slate-800 px-6">
           <h2 className="text-xl md:text-2xl  xl:text-3xl  ">Teach</h2>
           <p className="text-sm md:text-lg  text-semibold ">
-            Inspired by Industrial Revolution 4.0
+            I like to help and share my knowledge
           </p>
         </article>
-        <article className="py-6 bg-gradient-to-l from-slate-900 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700 via-cyan-900  rounded-2xl m-2 md:w-1/4 flex-1  bg-slate-900 hover:bg-slate-800 shadow-lg shadow-slate-600 px-6">
-          <h2 className="text-xl md:text-2xl  xl:text-3xl  ">
-            Traveling
-          </h2>
+        <article className="py-6 bg-gradient-to-l from-slate-900 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700 via-cyan-900  rounded-2xl m-2 md:w-1/4 flex-1  bg-slate-800 hover:bg-slate-700 shadow-lg shadow-slate-800 px-6">
+          <h2 className="text-xl md:text-2xl  xl:text-3xl  ">Traveling</h2>
           <p className="text-sm md:text-lg  text-semibold">
             Love to explore nature
           </p>
         </article>
 
-        <article className="py-6 bg-gradient-to-l from-slate-900 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700 via-cyan-900  rounded-2xl m-2 md:w-1/4 flex-1  bg-slate-900 hover:bg-slate-800 shadow-lg shadow-slate-600 px-6">
-          <h2 className="text-xl md:text-2xl  xl:text-3xl ">
-            Jeogaphy
-          </h2>
+        <article className="py-6 bg-gradient-to-l from-slate-900 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700 via-cyan-900  rounded-2xl m-2 md:w-1/4 flex-1  bg-slate-800 hover:bg-slate-700 shadow-lg shadow-slate-800 px-6">
+          <h2 className="text-xl md:text-2xl  xl:text-3xl ">geography</h2>
           <p className="text-sm md:text-lg  text-semibold ">
-            Inspired by Indutrial Revolution 4.0
+            Reading about geography interesting
           </p>
         </article>
       </div>
