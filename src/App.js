@@ -5,6 +5,7 @@ import About from "./components/main/About";
 import Interest from "./components/main/Interest";
 import Footer from "./components/footer/Footer";
 import "./styles/App.css";
+import Contact from "./components/main/Contact";
 
 function App() {
   const [light, setlight] = useState(true);
@@ -18,6 +19,8 @@ function App() {
         <About />
         <div className="md:w-12 lg:w-14 w-8 rounded-full md:mx-8 xl:mx-28 mx-5 md:my-12 my-8   h-0.5 md:h-1 lg:h-1.3 z-10 bg-gradient-to-bl from-slate-400  bg-blue-600"></div>
         <Interest />
+        <div className="md:w-12 lg:w-14 w-8 rounded-full md:mx-8 xl:mx-28 mx-5 md:my-12 my-8   h-0.5 md:h-1 lg:h-1.3 z-10 bg-gradient-to-bl from-slate-400  bg-blue-600"></div>
+        <Contact />
         <div className="md:w-12 lg:w-14 w-8 rounded-full md:mx-8 xl:mx-28 mx-5 md:my-12 my-8   h-0.5 md:h-1 lg:h-1.3 z-10 bg-gradient-to-bl from-slate-400  bg-blue-600"></div>
         <Footer />
       </div>

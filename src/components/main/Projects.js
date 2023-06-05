@@ -2,7 +2,10 @@ import React from "react";
 import { projects } from "../PUblicData/Data";
 function Projects() {
   return (
-    <div id="project" className="xl:px-28  px-4 sm:px-6   md:px-12   ">
+    <div
+      id="project"
+      className="xl:px-28  px-4 sm:px-6  text-center sm:text-left  md:px-12   "
+    >
       <h1 className="xl:text-7xl sm:text-5xl text-3xl md:text-6xl text-gray-300 dark:text-slate-700 ">
         Featured Projects
       </h1>
@@ -11,7 +14,7 @@ function Projects() {
         {projects.map((project, index) => {
           const { image, name, des, tegUse, gitUrl, liveUrl } = project;
           return (
-            <section className="md:w-3/5 lg:w-2/5  bg-gradient-to-l dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700  from-slate-800 via-cyan-900  sm:w-4/6 w-full mx-auto text-center shadow-xl shadow-slate-500 rounded-2xl bg-slate-900 py-7 p-4  my-8  md:my-16 md:mx-4 lg:mx-10">
+            <section className="md:w-3/5 lg:w-2/5  bg-gradient-to-l dark:via-blue-300 dark:bg-slate-300 dark:from-blue-300  dark:text-gray-700  from-slate-800 via-slate-800  sm:w-4/6 w-full mx-auto text-center shadow-xl shadow-slate-500 rounded-2xl bg-slate-900 py-7 p-4  my-8  md:my-16 md:mx-4 lg:mx-10">
               <img
                 src={image}
                 className=" mx-auto items-center w-full h-uto lg:h-56 rounded-t-xl mb-4 hover:scale-105 duration-500 ease-in-out"
@@ -40,7 +43,7 @@ function Projects() {
                 <div className="mx-auto px-4 ">
                   <button>
                     <a
-                      className="px-4 py-2.5 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-400  dark:text-gray-700 rounded-lg bg-blue-500 shadow-md bg-gradient-to-l from-slate-800 via-cyan-900  hover:bg-blue-600 text-white shadow-cyan-600"
+                      className="px-4 py-2.5 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-400  dark:text-gray-700 rounded-lg bg-blue-500 shadow-md bg-gradient-to-l from-slate-800 via-slate-800  hover:bg-blue-600 text-white shadow-cyan-600"
                       target="_blank"
                       href={gitUrl}
                     >
@@ -52,7 +55,7 @@ function Projects() {
                 <div className="mx-auto px-4 ">
                   <button>
                     <a
-                      className="px-4 py-2.5 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-400  dark:text-gray-700 rounded-lg bg-blue-500 shadow-md bg-gradient-to-l from-slate-800 via-cyan-900  hover:bg-blue-600 text-white shadow-cyan-600"
+                      className="px-4 py-2.5 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-400  dark:text-gray-700 rounded-lg bg-blue-500 shadow-md bg-gradient-to-l from-slate-800 via-slate-800  hover:bg-blue-600 text-white shadow-cyan-600"
                       target="_blank"
                       href={liveUrl}
                     >
