@@ -1,7 +1,7 @@
 export const projects = [
   {
     image:
-      "https://www.smarther.co/wp-content/uploads/2020/07/mobile-ecommerce-blog.jpg",
+      "https://www.agenciaeplus.com.br/wp-content/uploads/2020/05/o_que_%C3%A9_um_site_ecommerce.jpg",
     name: "Nazho Store",
     des: "This is a frontend Ecommerce Store for Tailwind Css Art Productswhere you create your account and use it for checkout process",
     tegUse: ["React", "Redux", "tailwindCss", "API"],
