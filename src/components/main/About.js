@@ -8,7 +8,7 @@ function About() {
       className="flex content-center items-center flex-col text-center xl:px-28 md:px-12  px-4 sm:px-6  text-gray-300 dark:text-slate-700"
     >
       <h1 className="xl:text-7xl text-4xl sm:text-5xl md:text-6xl  py-6 ">
-        who am i?
+        Who Am I?
       </h1>
       <img
         src="jawad-erfani.jpg"
