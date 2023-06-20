@@ -22,7 +22,7 @@ function Header({ light, setlight }) {
             <li className="xl:px-10 px-5 dark:hover:text-slate-900 hover:text-white">
               <span
                 onClick={() => window.location.replace("#project")}
-                className=" hover:border-b dark:border-slate-900  p-2 duration-100"
+                className=" hover:border-b dark:border-slate-900 cursor-pointer  p-2 duration-100"
               >
                 Projects
               </span>
@@ -30,7 +30,7 @@ function Header({ light, setlight }) {
             <li className="xl:px-10 px-5 dark:hover:text-slate-900 hover:text-white ">
               <span
                 onClick={() => window.location.replace("#skills")}
-                className=" hover:border-b dark:border-slate-900 p-2 duration-100"
+                className=" hover:border-b dark:border-slate-900 cursor-pointer p-2 duration-100"
               >
                 Skills
               </span>
@@ -38,7 +38,7 @@ function Header({ light, setlight }) {
             <li className="xl:px-10 px-5 dark:hover:text-slate-900 hover:text-white">
               <span
                 onClick={() => window.location.replace("#about")}
-                className=" hover:border-b dark:border-slate-900  p-2 duration-100"
+                className=" hover:border-b dark:border-slate-900 cursor-pointer  p-2 duration-100"
               >
                 About
               </span>
@@ -46,7 +46,7 @@ function Header({ light, setlight }) {
             <li className="xl:px-10 px-5 dark:hover:text-slate-900 hover:text-white">
               <span
                 onClick={() => window.location.replace("#contact")}
-                className=" hover:border-b dark:border-slate-900  p-2 duration-100"
+                className=" hover:border-b dark:border-slate-900 cursor-pointer  p-2 duration-100"
               >
                 Contact
               </span>
