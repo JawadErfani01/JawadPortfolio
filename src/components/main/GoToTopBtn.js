@@ -22,7 +22,7 @@ const GoToTopButton = () => {
     <>
       {showButton && (
         <button
-          className="fixed bottom-4 right-4 bg-white dark:bg-black dark:text-white text-black p-3 text-lg   rounded-full  shadow-lg "
+          className="fixed  hover:scale-110 m-2 animate-bounce hover:animate-none duration-300 bottom-4 right-4 bg-white dark:bg-black dark:text-white text-black p-3 text-lg   rounded-full  shadow-lg "
           onClick={handleClick}
         >
           <AiOutlineArrowUp />
