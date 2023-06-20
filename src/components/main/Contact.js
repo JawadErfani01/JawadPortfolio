@@ -59,7 +59,7 @@ const Contact = () => {
           </button>
         </a>
       </div>
-      <div className="text-center  md:text-left  md:w-3/5  mt-10">
+      <div className=" w-full  md:text-left  md:w-3/5  mt-10">
         <form action="#" method="post">
           <input
             type="text"
@@ -123,6 +123,7 @@ const Contact = () => {
           px-8 
           rounded-md 
           border-none 
+          w-[50%]
           shadow-md 
           cursor-pointer 
           transition-all 0.2s linear   hover:bg-slate-800
