@@ -41,8 +41,8 @@ function Main() {
             consuming backend APIs
           </h3>
           <button
-            onClick={() => window.location.replace("#fotterLink")}
-            className="px-3 my-10  bg-gradient-to-l from-slate-700 via-slate-800  dark:via-blue-300 dark:bg-slate-300 dark:from-blue-400  dark:text-gray-700 md:py-4 py-1 w-full sm:w-1/2 md:w-1/3 lg:w-1/4  text-lg md:text-xl lg:text-2xl text-slate-200 bg-slate-700  rounded-full hover:scale-105 duration-300  shadow-2xl  hover:bg-slate-500 dark:hover:bg-slate-600"
+            onClick={() => window.location.replace("#contact")}
+            className="px-3 my-10  bg-gradient-to-l from-slate-700 via-slate-800  dark:via-blue-300 dark:bg-slate-300 dark:from-blue-400  dark:text-gray-700 md:py-4 py-1 w-full sm:w-1/2 md:w-1/3 lg:w-1/4  text-lg md:text-xl lg:text-2xl text-slate-200 bg-slate-700  rounded-full hover:scale-105 duration-300  shadow-2xl active:outline-none active:shadow-none hover:bg-slate-500 dark:hover:bg-slate-600"
           >
             <span className="text-blue-500 ">Let's</span> Connect
           </button>

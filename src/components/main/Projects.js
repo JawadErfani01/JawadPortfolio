@@ -45,6 +45,7 @@ function Projects() {
                     <a
                       className="px-4 py-2.5 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-400  dark:text-gray-700 rounded-lg bg-blue-500 shadow-md bg-gradient-to-l from-slate-800 via-slate-800  hover:bg-blue-600 text-white shadow-cyan-600"
                       target="_blank"
+                      rel="noreferrer"
                       href={gitUrl}
                     >
                       Code
@@ -57,6 +58,7 @@ function Projects() {
                     <a
                       className="px-4 py-2.5 dark:via-blue-300 dark:bg-slate-300 dark:from-blue-400  dark:text-gray-700 rounded-lg bg-blue-500 shadow-md bg-gradient-to-l from-slate-800 via-slate-800  hover:bg-blue-600 text-white shadow-cyan-600"
                       target="_blank"
+                      rel="noreferrer"
                       href={liveUrl}
                     >
                       Live

@@ -23,15 +23,15 @@ export const projects = [
     des: "This is a beautiful personal portfolio that made with Html raw css and vanilla Javascript it is responsive and has light and dark mode features",
     tegUse: ["HTML", "CSS", "Javascript"],
     gitUrl: "https://github.com/JawadErfani01/personal-portfolio",
-    liveUrl: "https://jawad.erfani.netlify.app/",
+    liveUrl: "https://jawaderfani.netlify.app/",
   },
 
   {
     image: "reduxtodo.png",
-    name: "Redux todoList",
-    des: "This is a full Todo list you can add update and remove a todo in your list and also every actions has a good alert message",
-    tegUse: ["React", "Redux", "Javascript", "css"],
-    gitUrl: "https://github.com/JawadErfani01/Redux-todolist",
-    liveUrl: "https://reduxtodolist01.netlify.app/",
+    name: "Todo List",
+    des: "This is a complete to-do list where you can add, update, and remove tasks from your list. Additionally, every action prompts a helpful alert message.",
+    tegUse: ["React", "Javascript", "css"],
+    gitUrl: "https://github.com/JawadErfani01/todolist",
+    liveUrl: "https://todolist0001.netlify.app/",
   },
 ];

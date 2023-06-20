@@ -27,7 +27,11 @@ const Contact = () => {
         </i>
 
         <div className="flex  items-center content-center sm:content-start ">
-          <a href="https://github.com/JawadErfani01" target="_blank">
+          <a
+            href="https://github.com/JawadErfani01"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="text-2xl mr-2 sm:mr-3 block  p-3 bg-slate-600 rounded-full  dark:text-white dark:hover:bg-slate-700 hover:bg-slate-800 hover:rounded-full hover:scale-125 transform duration-500">
               <FaGithub />
             </i>
@@ -36,17 +40,26 @@ const Contact = () => {
           <a
             href="https://www.linkedin.com/in/jawad-erfani-610197195/"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="text-2xl mx-2 sm:mx-3 block  p-3 bg-slate-600 rounded-full  dark:text-white dark:hover:bg-slate-700 hover:bg-slate-800 hover:rounded-full hover:scale-125 transform duration-500">
               <FaLinkedin />
             </i>
           </a>
-          <a href="https://twitter.com/JawadErfani01" target="_blank">
+          <a
+            href="https://twitter.com/JawadErfani01"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="text-2xl mx-2 sm:mx-3 block  p-3 bg-slate-600 rounded-full  dark:text-white dark:hover:bg-slate-700 hover:bg-slate-800 hover:rounded-full hover:scale-125 transform duration-500">
               <FaTwitter />
             </i>
           </a>
-          <a href="https://telegram.com/JawadErfani01" target="_blank">
+          <a
+            href="https://telegram.com/JawadErfani01"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="text-2xl mx-2 sm:mx-3 block  p-3 bg-slate-600 rounded-full  dark:text-white dark:hover:bg-slate-700 hover:bg-slate-800 hover:rounded-full hover:scale-125 transform duration-500">
               <FaTelegram />
             </i>
