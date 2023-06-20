@@ -40,29 +40,29 @@ function About() {
           <li className="text-center mx-10  flex-1 m-2 border rounded-xl    py-1 px-3 ">
             <FaReact className="w-12 h-12  my-2 mx-auto" />
 
-            <span>React</span>
+            <span className="text-[12px]">React</span>
           </li>
           <li className="text-center mx-10  flex-1 m-2 border rounded-xl     py-1 px-3">
             <SiRedux className="w-12 h-12 mx-auto my-2" />
 
-            <span>Redux</span>
+            <span className="text-[12px]">Redux</span>
           </li>
-          <li className=" mx-10 text-center  border rounded-xl   flex-1 m-2    py-1 px-3">
+          <li className=" mx-10 text-center   border rounded-xl   flex-1 m-2    py-1 px-3">
             <SiTypescript className="w-12 h-12 mx-auto my-2" />
-            <span>TypeScript</span>
+            <span className="text-[10px]">TypeScript</span>
           </li>
           <li className="text-center mx-10 border rounded-xl   flex-1 m-2    py-1 px-3">
             <SiNextdotjs className="w-12 h-12 mx-auto my-2" />
 
-            <span>NextJS</span>
+            <span className="text-[12px]">NextJS</span>
           </li>
           <li className="text-center mx-10  border rounded-xl   flex-1 m-2    py-1 px-3">
             <FaGit className="w-12 h-12 mx-auto my-2" />
-            <span>git</span>
+            <span className="text-[12px]">git</span>
           </li>
           <li className="text-center mx-10  border rounded-xl   flex-1 m-2    py-1 px-3">
             <FaGithub className="w-12 h-12 mx-auto my-2" />
-            <span>Github </span>
+            <span className="text-[12px]">Github </span>
           </li>
         </ul>
       </div>
