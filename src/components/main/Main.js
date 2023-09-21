@@ -4,11 +4,11 @@ function Main() {
   return (
     <div>
       <main className="xl:px-28 md:px-12 px-4 sm:px-6  text-center sm:text-left  dark:text-slate-700">
-        <div className="md:text-6xl sm:text-5xl  py-10 pb-6 lg:pt-20 lg:text-7xl text-3xl">
+        <div className="md:text-6xl sm:text-4xl  py-10 pb-6 lg:pt-20 lg:text-7xl text-3xl">
           <div className="">
             <h1 className="font-semibold">
               I'm
-              <span className="text-4xl lg:ml-3 ml-2 md:text-7xl sm:text-6xl  lg:text-8xl text-blue-600">
+              <span className="text-4xl lg:ml-3 ml-2 md:text-7xl sm:text-5xl  lg:text-8xl text-blue-600">
                 J
               </span>
               awad,
