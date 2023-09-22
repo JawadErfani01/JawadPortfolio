@@ -11,7 +11,7 @@ export const projects = [
   {
     image: "https://i.nextmedia.com.au/News/change_your_region_to_the_us.png",
     name: "Country app",
-    des: "This is a Country app that you can see list of all country and you can see much more information about every county that you want",
+    des: "This is a Country app that you can see list of all country and you can see much more informations about every county that you want",
     tegUse: ["React", "Context", "tailwindCss", "API"],
     gitUrl: "https://github.com/JawadErfani01/Country-app",
     liveUrl: "https://countryapp01.netlify.app/",
